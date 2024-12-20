@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bulma.css">
+</head>
+
+<body style="background: url(paysage.jpg)">
+    <h1 class="is-size-2 has-text-primary has-text-centered is-italic is-underlined">Formulaire de contact</h1>
+    <div class="columns">
+        <div class="column is-half">
+            <form name="contact" method="get" action="">
+                <div class="field">
+                    <label class="label has-text-primary">CIVILITE</label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>Sélectionnez votre Sexe</option>
+                                <option>Homme</option>
+                                <option>Femme</option>
+                                <option>Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">NOM</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">PRENOM</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="file is-normal">
+                    <label class="file-label">
+                        <input class="file input is-focused" type="file" name="resume">
+                        <span class="file-icon">
+                            <i class="fas fa-upload"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">EMAIL</label>
+                    <div class="control has-icons-left has icons-right">
+                        <input class="input is-focused" type="email" placeholder="Email input" value="hello@">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">TEL:</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">ADRESSE</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">CODE POSTAL</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">VILLE</label>
+                    <div class="control">
+                        <input class="input is-focused" type="text" placeholder="Text input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label has-text-primary">FROM</label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>Sélectionnez votre Pays</option>
+                                <option>France</option>
+                                <option>Amérique</option>
+                                <option>Etats-Unis</option>
+                                <option>Autres</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="column">
+            <div class="field">
+                <label class="label has-text-primary">PSEUDO</label>
+                <div class="control">
+                    <input class="input is-focused" type="text" placeholder="Text input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label has-text-primary">MOT DE PASSE</label>
+                <div class="control">
+                    <input class="input is-focused" type="password" placeholder="Text input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label has-text-primary">INFOS COMPLEMENTAIRES</label>
+                <div class="control">
+                    <textarea class="textarea is-primary" placeholder="Zone de texte" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label has-text-primary">HOBBIES</label>
+                <div class="control">
+                    <textarea class="textarea is-primary" placeholder="Zone de texte" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link">ENVOYER</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">RETOUR</button>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
